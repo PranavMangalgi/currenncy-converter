@@ -1,25 +1,109 @@
 /* <i class="fa-solid fa-arrow-right-arrow-left"></i> */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
 }
 
 body{
     
-    background-color: #1a90d4;
+    background-color: #4969f7;
     min-height: 100vh;
     display: grid;
     place-content: center;
 }
 
 .container{
-    width: 50vh;
+    width: 60vh;
     background-color: white;
     padding: 1rem;
     height: 60vh;
     border-radius: 1rem;
 }
+
+.container header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.container form{
+    margin: 5% 5% 0 5%;
+}
+
+form :where(input,select,button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+p{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+form input{
+    height: 6vh;
+    padding: 0 15px;
+    font-size:  .9rem;
+    border: 1px solid #999; 
+}
+
+form input:focus{
+    padding: 0 11px;
+    border: 2px solid #4969f7;
+}
+
+form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .75 rem;
+}
+
+.drop-list .select-box{
+    display: flex;
+    height: 40px;
+    width: 110px;
+    align-items: center;
+    justify-self: center;
+    
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.select-box select{
+    width: auto;
+    padding: 1%;
+    margin: 0 -8px;
+    font-size: .8rem;
+}
+
+.select-box img{
+    margin: 9%;
+    max-width: 30px;
+}
+
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 55px;
+}
+
+form .exchange-rate{
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+form button{
+    margin: 1.2rem 0;
+    height: 50px;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #4969f7;
+    
+}
+
