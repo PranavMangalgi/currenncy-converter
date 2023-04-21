@@ -25,5 +25,5 @@ Currency Converter was built using the following technologies:
 
 ## Getting Started
 
-To use Currency Converter, simply visit our website at [example.com/currency-converter](https://example.com/currency-converter). No installation or setup is required.
+To use Currency Converter, simply visit our website at [currency-converter](https://currency-converter-component.netlify.app/). No installation or setup is required.
 
