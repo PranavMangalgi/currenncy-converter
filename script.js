@@ -164,7 +164,7 @@ for (let i = 0; i < dropList.length; i++) {
     for (const currencyCode in countryList) {
         let optionTag = `<option value="${currencyCode}">${currencyCode}</option>`;
         dropList[i].insertAdjacentHTML("beforeend", optionTag);
-        
+
     }
     
 }
